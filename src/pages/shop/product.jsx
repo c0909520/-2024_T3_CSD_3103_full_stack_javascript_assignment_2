@@ -9,7 +9,7 @@ export const Product = (props) => {
 
   return (
     <div className="product">
-      <img src={productImage} />
+      <img className = "photo_img"src={productImage} />
       <div className="description">
         <p>
           <b>{productName}</b>
