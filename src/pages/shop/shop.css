@@ -17,6 +17,7 @@
   place-items: center;
 }
 
+
 .product {
   border-radius: 15px;
   width: 300px;
@@ -27,12 +28,20 @@
   justify-content: center;
   align-items: center;
 }
-
+.form_form1{
+  padding: 20px;
+}
+.form-label{
+  margin-top: 5px;
+}
 .photo_img {
   width: 320px;
   transition: width 0.3s ease-in-out;
 }
-
+.area_control{
+  width: 50% !important;
+  height: 150px !important;
+}
 .photo_img:hover {
   width: 365px;
 }
