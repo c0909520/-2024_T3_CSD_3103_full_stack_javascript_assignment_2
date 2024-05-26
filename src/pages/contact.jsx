@@ -4,6 +4,8 @@ import "../pages/shop/shop.css";
 export const Contact = () => {
   return (
     <>
+    <div className="form_con1">
+      <div className="container_form_form">
       <form class="form_form1">
         <div class="col-md-4">
           <label for="validationDefault01" class="form-label">
@@ -79,6 +81,10 @@ export const Contact = () => {
           </button>
         </div>
       </form>
+      </div>
+   
+    </div>
+     
     </>
   );
 };

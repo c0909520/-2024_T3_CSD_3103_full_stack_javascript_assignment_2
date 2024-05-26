@@ -16,7 +16,15 @@
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
 }
-
+.container_form_form{
+  margin-top: 45px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(84, 82, 82);
+  box-shadow: 1px 6px 2px 4px rgb(84, 82, 82, 0.3);
+width: 80%;
+align-items: center;
+justify-content: center;
+}
 
 .product {
   border-radius: 15px;
@@ -30,6 +38,14 @@
 }
 .form_form1{
   padding: 20px;
+  
+}
+.form_con1{
+
+  justify-content: center;
+  align-items: center;
+display: flex;
+ 
 }
 .form-label{
   margin-top: 5px;

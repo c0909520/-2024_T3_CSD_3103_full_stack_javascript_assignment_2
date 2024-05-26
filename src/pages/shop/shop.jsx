@@ -12,7 +12,7 @@ export const Shop = () => {
 
       <div className="products ">
         {PRODUCTS.map((product) => (
-          //.map to iterate each product in the array using lists and keys
+     
           <Product key={Product.id} data={product} />
         ))}
       </div>
