@@ -7,7 +7,8 @@ export const Contact = () => {
     <div className="form_con1">
       <div className="container_form_form">
       <form class="form_form1">
-        <div class="col-md-4">
+        <div className="holder_form">  
+          <div class="col-md-4">
           <label for="validationDefault01" class="form-label">
             First name:
           </label>
@@ -79,7 +80,8 @@ export const Contact = () => {
           <button class="btn btn-primary" type="submit">
             Submit form
           </button>
-        </div>
+        </div></div>
+      
       </form>
       </div>
    

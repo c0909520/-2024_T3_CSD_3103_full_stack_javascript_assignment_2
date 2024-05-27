@@ -15,6 +15,11 @@
   border-radius: 25px;
   margin: 30px;
 }
+.head_header{
+  font-weight: 800;
+  font-size: large;
+  font-size: 45px;
+}
 
 .cartItem img {
   width: 200px;
