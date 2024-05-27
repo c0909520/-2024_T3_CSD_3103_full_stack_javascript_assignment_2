@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 const Checkout = () => {
   const [hover, setHover] = useState(true);
 
@@ -23,7 +24,7 @@ const Checkout = () => {
     <>
       <div className="form_con1">
         <div className="container_form_form">
-          <form className="form_form1" action="/userinfo" >
+          <form className="form_form1" method="get" action="/userinfo" >
             <div className="holder_form">
               <div className="col-md-4">
                 <label htmlFor="validationDefault01" className="form-label" >
@@ -34,6 +35,7 @@ const Checkout = () => {
                   className="form-control"
                   id="validationDefault01"
                   required
+                  name="name"
                 />
               </div>
               <div className="col-md-4">
@@ -94,6 +96,7 @@ const Checkout = () => {
 
               <div style={{marginTop:"10px"}} className="mb-3">
                 <button className="btn btn-primary" type="submit">
+                 
                   Submit form
                 </button>
                 <button style={{marginLeft:"10px"}} className="btn btn-primary" type="button" onClick={clearForm}>

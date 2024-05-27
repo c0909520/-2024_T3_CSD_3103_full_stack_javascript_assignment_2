@@ -17,6 +17,7 @@ export const Contact = () => {
             class="form-control"
             id="validationDefault01"
             required
+            
           />
         </div>
         <div class="col-md-4">
