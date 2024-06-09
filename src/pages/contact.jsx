@@ -1,7 +1,7 @@
 import React from "react";
 import "../pages/shop/shop.css";
 
-export const Contact = () => {
+export const Contact = (props) => {
   return (
     <>
     <div className="form_con1">
@@ -10,19 +10,18 @@ export const Contact = () => {
         <div className="holder_form">  
           <div class="col-md-4">
           <label for="validationDefault01" class="form-label">
-            First name:
+             {props.form1}
           </label>
           <input
             type="text"
             class="form-control"
             id="validationDefault01"
             required
-            
           />
         </div>
         <div class="col-md-4">
           <label for="validationDefault02" class="form-label">
-            Last name:
+            {props.form2}
           </label>
           <input
             type="text"
@@ -33,7 +32,7 @@ export const Contact = () => {
         </div>
         <div class="col-md-4">
           <label for="validationDefault01" class="form-label">
-            User Name:
+            {props.form3}
           </label>
           <input
             type="text"
@@ -45,7 +44,7 @@ export const Contact = () => {
 
         <div class="col-md-4">
           <label for="validationDefault02" class="form-label">
-            Email Address:
+            {props.form4}
           </label>
           <input
             type="email"
@@ -56,7 +55,7 @@ export const Contact = () => {
         </div>
         <div class="col-md-4">
           <label for="validationDefault02" class="form-label">
-            Phone Number:
+           {props.form5}
           </label>
           <input
             type="number"
@@ -67,7 +66,7 @@ export const Contact = () => {
         </div>
         <div class="mb-3">
           <label for="validationTextarea" class="form-label">
-            Contact us:
+           {props.form6}
           </label>
           <textarea
             class="form-control area_control"
@@ -79,13 +78,12 @@ export const Contact = () => {
 
         <div class="mb-3">
           <button class="btn btn-primary" type="submit">
-            Submit form
+           {props.form7}
           </button>
         </div></div>
       
       </form>
       </div>
-   
     </div>
      
     </>

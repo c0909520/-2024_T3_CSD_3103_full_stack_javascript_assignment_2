@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const Checkout = () => {
+const Checkout = (props) => {
   const [hover, setHover] = useState(true);
 
   const handleOnMouseOver = () => {
@@ -28,7 +28,7 @@ const Checkout = () => {
             <div className="holder_form">
               <div className="col-md-4">
                 <label htmlFor="validationDefault01" className="form-label" >
-                  First name:
+                 {props.info1}
                 </label>
                 <input
                   type="text"
@@ -40,7 +40,7 @@ const Checkout = () => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="validationDefault02" className="form-label">
-                  Last name:
+                  {props.info2}
                 </label>
                 <input
                   type="text"
@@ -51,7 +51,7 @@ const Checkout = () => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="address" className="form-label">
-                  Address:
+                 {props.info3}
                 </label>
                 <input
                   type="text"
@@ -62,7 +62,7 @@ const Checkout = () => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="email" className="form-label">
-                  Email Address:
+               {props.info4}
                 </label>
                 <input
                   type="email"
@@ -73,7 +73,7 @@ const Checkout = () => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="phone" className="form-label">
-                  Phone Number:
+                  {props.info5}
                 </label>
                 <input
                   type="number"
@@ -84,7 +84,7 @@ const Checkout = () => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="card" className="form-label">
-                  Enter Card Number
+                   {props.info6}
                 </label>
                 <input
                   type="number"
@@ -97,10 +97,10 @@ const Checkout = () => {
               <div style={{marginTop:"10px"}} className="mb-3">
                 <button className="btn btn-primary" type="submit">
                  
-                  Submit form
+                {props.info7}
                 </button>
                 <button style={{marginLeft:"10px"}} className="btn btn-primary" type="button" onClick={clearForm}>
-                  Clear
+                  {props.info8}
                 </button>
               </div>
             </div>

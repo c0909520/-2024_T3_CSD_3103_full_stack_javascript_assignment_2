@@ -9,11 +9,9 @@ export const Shop = () => {
       <div className="shopTitle">
         <span className="head_title">Ecommerce - Assignment_1_S24</span>
       </div>
-
       <div className="products ">
         {PRODUCTS.map((product) => (
-     
-          <Product key={Product.id} data={product} />
+          <Product key={product.id} data={product} />
         ))}
       </div>
     </div>
