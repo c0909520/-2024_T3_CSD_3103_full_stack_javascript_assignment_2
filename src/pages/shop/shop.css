@@ -4,66 +4,62 @@
   text-align: center;
   font-size: 40px;
 }
-.head_title{
+.head_title {
   font-weight: 500;
   font-size: 60px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .products {
-  width: 50%;
+  width:100%;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
 }
-.container_form_form{
+.container_form_form {
   margin-top: 45px;
   margin-bottom: 30px;
   border: 1px solid rgb(84, 82, 82);
   box-shadow: 1px 6px 2px 4px rgb(84, 82, 82, 0.3);
-width: 80%;
-align-items: center;
-justify-content: center;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
 }
 
 .product {
   border-radius: 15px;
   width: 300px;
   height: 350px;
-   margin: 100px 40px 100px 65px;
+  margin: 100px 40px 100px 65px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.form_form1{
+.form_form1 {
   padding: 20px;
-
-  
 }
-.form_con1{
-
+.form_con1 {
   justify-content: center;
   align-items: center;
-display: flex;
- 
+  display: flex;
 }
-.form-label{
+.form-label {
   margin-top: 5px;
 }
 .photo_img {
   width: 320px;
   transition: width 0.3s ease-in-out;
 }
-.area_control{
-  width: 50% !important;
+.area_control {
+  width: 100% !important;
   height: 150px !important;
 }
 .photo_img:hover {
   width: 365px;
 }
 
- img :hover{
+img :hover {
   transition: 0.3s all ease-in-out;
   width: 340px;
 }

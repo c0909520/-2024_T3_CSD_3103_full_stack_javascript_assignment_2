@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 const Checkout = (props) => {
   const [hover, setHover] = useState(true);
 
@@ -24,11 +23,11 @@ const Checkout = (props) => {
     <>
       <div className="form_con1">
         <div className="container_form_form">
-          <form className="form_form1" method="get" action="/userinfo" >
+          <form className="form_form1" method="get" action="/userinfo">
             <div className="holder_form">
               <div className="col-md-4">
-                <label htmlFor="validationDefault01" className="form-label" >
-                 {props.info1}
+                <label htmlFor="validationDefault01" className="form-label">
+                  {props.info1}
                 </label>
                 <input
                   type="text"
@@ -51,7 +50,7 @@ const Checkout = (props) => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="address" className="form-label">
-                 {props.info3}
+                  {props.info3}
                 </label>
                 <input
                   type="text"
@@ -62,7 +61,7 @@ const Checkout = (props) => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="email" className="form-label">
-               {props.info4}
+                  {props.info4}
                 </label>
                 <input
                   type="email"
@@ -84,7 +83,7 @@ const Checkout = (props) => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="card" className="form-label">
-                   {props.info6}
+                  {props.info6}
                 </label>
                 <input
                   type="number"
@@ -94,12 +93,16 @@ const Checkout = (props) => {
                 />
               </div>
 
-              <div style={{marginTop:"10px"}} className="mb-3">
+              <div style={{ marginTop: "10px" }} className="mb-3">
                 <button className="btn btn-primary" type="submit">
-                 
-                {props.info7}
+                  {props.info7}
                 </button>
-                <button style={{marginLeft:"10px"}} className="btn btn-primary" type="button" onClick={clearForm}>
+                <button
+                  style={{ marginLeft: "10px" }}
+                  className="btn btn-primary"
+                  type="button"
+                  onClick={clearForm}
+                >
                   {props.info8}
                 </button>
               </div>
